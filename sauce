@@ -1,0 +1,83 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PlayerMovement : MonoBehaviour
+{
+    #region Variables
+    /* various variables */
+
+    // Basic Movement
+    public float Speed = 5.0f;
+    private float verticalInput;
+    private float horizontalInput;
+
+    // Basic Camera
+    public float cameraSensitivity = 2.0f;
+    private float mouseX;
+    private float mouseY;
+
+    #endregion
+
+
+
+    #region Core Loop
+    /* Start,Update,Late Update */
+
+    void Start()
+    {
+        LockCursor();
+    }
+
+     void Update()
+    {
+         HandleMovement();
+        HandleMouseRotation();
+        UnlockCursor();
+    }
+
+
+   #endregion
+
+
+    #region Character Movement
+    //Handle Character and Camera Movement
+    void HandleMovement()
+    {
+        // Move the player based on input
+        verticalInput = Input.GetAxis("Vertical");
+        horizontalInput = Input.GetAxis("Horizontal");
+        transform.Translate(Vector3.forward * Time.deltaTime * Speed * verticalInput); // Vertical
+        transform.Translate(Vector3.right * Time.deltaTime * Speed * horizontalInput); // Horizontal
+    }
+
+    void HandleMouseRotation()
+    {
+        // Rotate the player based on mouse input
+        mouseX += Input.GetAxis("Mouse X") * cameraSensitivity;
+        mouseY -= Input.GetAxis("Mouse Y") * cameraSensitivity;
+        mouseY = Mathf.Clamp(mouseY, -90f, 90f);
+
+        transform.rotation = Quaternion.Euler(0f, mouseX, 0f); // Rotate only around Y-axis
+    }
+    #endregion
+
+    #region Cursor Management
+    /* lock and unlock the cursor */
+    void LockCursor()
+    {
+        // Lock the cursor to the center of the screen and hide it
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+
+    void UnlockCursor()
+    {
+        // Unlock the cursor when the Escape key is pressed
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Cursor.lockState = CursorLockMode.None;
+        }
+    }
+    #endregion
+
+}
