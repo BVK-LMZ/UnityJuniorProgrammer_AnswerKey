@@ -22,5 +22,4 @@ On the whole, the Create with Code Chapter delivered a solid introduction to bas
 
 I stand with my first 40hours done!
 
-![Highlight](images/Highlight.gif)
-
+![Highlight](Highlight.gif)
