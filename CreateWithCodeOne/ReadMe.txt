@@ -22,5 +22,5 @@ On the whole, the Create with Code Chapter delivered a solid introduction to bas
 
 I stand with my first 40hours done!
 
-![Untitled video - Made with Clipchamp](https://github.com/BVK-LMZ/UnityJuniorProgrammer_AnswerKey/assets/78233321/efe094c4-6be6-4db4-865a-eb120e4ce26b)
+![Highlight](images/Highlight.gif)
 
