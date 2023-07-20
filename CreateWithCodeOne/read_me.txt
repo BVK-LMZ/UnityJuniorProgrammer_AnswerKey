@@ -4,27 +4,10 @@ Unity Junior Programming Unit Two {FEED ANIMAL GAME}
 Fix This Unit Challenges 
 ---
 
-
-Unity Junior Programming Unit One {VECHILE GAME}
+Unit One:
 https://play.unity.com/mg/other/unity-junior-programming-unit-one
 
-In TankGame folder :
-> .unity project file 
-> source code
+Unit Two: 
 
-
-
-Unity Junior Programming Unit Two {FEED ANIMAL GAME}
-<game link>
-
-In FoodGame folder:
-> .unity project file
-> source code
-
-
-
-
-Fix This Unit Challenges 
-In FixItChallenges folder:
-> source code
-
+Fix This Challenges: 
+See Source
