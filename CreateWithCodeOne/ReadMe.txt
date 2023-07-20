@@ -21,5 +21,5 @@ E) Overall Summary
 On the whole, the Create with Code Chapter delivered a solid introduction to basic movement, overlap, and trigger interactions. As I anticipate the upcoming Create with Code Section 2, I'm reminded that continuous learning is the path to mastery in the complex world of Unity. While I've chosen to save the BONUS challenges for a later date, I can confidently say that my journey with Unity has only just begun, and I'm looking forward to every step of the way.
 
 I stand with my first 40hours done!
+![Alt Text](Highlight.gif)
 
-![Highlight](Highlight.gif)
