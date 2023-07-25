@@ -1,0 +1,9 @@
+Challenge notes
+
+step 3) get the rigidbody in the start method
+step 4) used a coroutine to reset pos after x seconds
+step 5) Fix spelling on invoke repeating
+step 6) move the location of the vFX
+step 7) fixed with step4
+step 8) Hardcode player transform limits or make walls
+step 9) put a tag on the ground on collision with that tag add force to bounce upwards heck even add sFX
