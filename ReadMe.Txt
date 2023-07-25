@@ -1,3 +1,9 @@
-Welcome to Junior Programmer! Designed for anyone interested in learning to code or obtaining an entry-level Unity role.
+Welcome to Junior Programmer! Designed for anyone interested in learning to code or obtaining an entry-level Unity role. This repo covers all units of the create with code series made by UNITY, free to acess on UNITY LEARN
 
-V1 of this anw key does not cover the challenge sections! perhaps future editions will
+This Repo Includes:
+>Source Code
+>Solution Files
+
+
+This Repo Does Not Include:
+>Challenge section solutions 
